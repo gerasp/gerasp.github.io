@@ -1,8 +1,8 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
-
+$siteOwnersEmail = 'gera.mdlh@gmail.com';
+phpinfo();
 
 if($_POST) {
 

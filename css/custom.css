@@ -4,6 +4,7 @@
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
   border-bottom: 1px solid white;
+  line-height: 1em;
 }
 .navbar-custom {
   padding: 4px 6px;
@@ -20,7 +21,7 @@
   color: white;
   font-size: 18px;
   margin:0px;
-  padding: 10px;
+  padding: 13px;
 }
 
 .navbar-toggle:hover, .navbar-button:visited, .navbar-button:focus {
@@ -60,6 +61,13 @@
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+
+@media (max-width: 768px ){
+  .navbar-brand {
+    padding: 13px;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -75,4 +83,30 @@
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+}
+
+.navbar-brand {
+  height: 40px;
+}
+
+.btn-group {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: inherit;
+}
+
+.flag {
+  margin-right: 22px;
+}
+
+p {
+  line-height: 2em;
+}
+
+.dropdown-menu {
+  margin-top: 15px;
+}
+
+.fa:hover {
+  color: #9a0000;
 }
