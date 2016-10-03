@@ -1,0 +1,26 @@
+{
+	"token": {
+		"Change language":"Cambiar idioma",
+		"Spanish":"Español",
+		"English":"Inglés",
+		"German":"Alemán",
+		"Resume":"Currículum",
+		"Contact":"Contacto",
+		"Welcome to my website":"Wilkommen in meiner Webseite",
+		"Web developer":"Desarrollador web",
+		"Software engineer":"Ingeniero de software",
+		"About me":"Sobre mí",
+		"About":"Sobre mí",
+		"Let me introduce myself":"Permíteme presentarme",
+		"I'm a guy":"hola soy un chico",
+		"Profile":"Perfil",
+		"Fullname:":"Nombre completo:",
+		"Birth Date:":"Fecha de nacimiento:",
+		"November 17, 1995":"17 de noviembre de 1995",
+		"Birth Place:":"Lugar de nacimiento:",
+		"Las Palmas, Spain":"Las Palmas, España",
+		"Website:":"Sitio web:",
+		"Skills:":"Habilidades:"
+
+	}
+}
