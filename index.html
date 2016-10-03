@@ -31,14 +31,6 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
-	<script type="text/javascript">
-		var lang = new Lang();
-		lang.dynamic('es', 'js/langpack/es.json');
-		lang.init({
-			defaultLang: 'en'
-		});
-	</script>
 
     <!-- favicons
      ================================================== -->
@@ -62,11 +54,11 @@
                     <i class="fa fa-globe" lang="en"></i> Change language <i class="fa fa-angle-down" lang="en"></i>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="#" onclick="window.lang.change('es');"><img class="flag" height="24px" width="24px" src="images/icons/es.png" alt="es"/>
+                    <li><a href="#" class="changeLang" onclick=""><img class="flag" height="24px" width="24px" src="images/icons/es.png" alt="es"/>
                         Spanish</a></li>
-                    <li><a href="#" onclick="window.lang.change('en');"><img class="flag" height="24px" width="24px" src="images/icons/en.png" alt="en"/>
+                    <li><a href="#" class="changeLang" onclick=""><img class="flag" height="24px" width="24px" src="images/icons/en.png" alt="en"/>
                         English</a></li>
-                    <li><a href="#" onclick="window.lang.change('de');"><img class="flag" height="24px" width="24px" src="images/icons/de.png" alt="de"/>
+                    <li><a href="#" class="changeLang" onclick=""><img class="flag" height="24px" width="24px" src="images/icons/de.png" alt="de"/>
                         German</a></li>
                 </ul>
             </div>
@@ -465,6 +457,7 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/lang.js"></script>
 <script src="js/custom.js"></script>
 
 </body>
