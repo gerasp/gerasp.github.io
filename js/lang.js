@@ -21,6 +21,8 @@ $(function () {
             langAfter = "en";
         }
 
+        console.log ("Change to "+langAfter);
+
         if (langBefore != langAfter) {
             if(langAfter == 'en') {
                 $("h1,h2,h3,h4,h5,h6,p,a,strong,span").each(function () {

@@ -39,7 +39,7 @@
 </head>
 
 <body id="top">
-
+<div id="page-top"></div>
 <!-- navigation
 ================================================== -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -49,23 +49,20 @@
                 <i class="fa fa-bars"></i>
             </div>
             <div class="btn-group">
-                <a type="button" class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
+                <div type="button" class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">
                     <i class="fa fa-globe"></i> Change language <i class="fa fa-angle-down"></i>
-                </a>
+                </div>
                 <ul class="dropdown-menu">
-                    <li><a href="#" class="change-lang change-lang-es" onclick=""><img class="flag" height="24px"
-                                                                                       width="24px"
+                    <li><a href="#" class="change-lang change-lang-es" onclick=""><img class="flag"
                                                                                        src="images/icons/es.png"
                                                                                        alt="es"/>
                         Spanish</a></li>
-                    <li><a href="#" class="change-lang change-lang-en" onclick=""><img class="flag" height="24px"
-                                                                                       width="24px"
+                    <li><a href="#" class="change-lang change-lang-en" onclick=""><img class="flag"
                                                                                        src="images/icons/en.png"
                                                                                        alt="en"/>
                         English</a></li>
-                    <li><a href="#" class="change-lang change-lang-de" onclick=""><img class="flag" height="24px"
-                                                                                       width="24px"
+                    <li><a href="#" class="change-lang change-lang-de" onclick=""><img class="flag"
                                                                                        src="images/icons/de.png"
                                                                                        alt="de"/>
                         German</a></li>
@@ -78,7 +75,7 @@
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a href="#intro"></a>
+                    <a href="#page-top"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#about">About</a>
@@ -141,7 +138,8 @@
 
                 <img src="images/profile-pic.jpg" alt="Profile Picture">
 
-                <p class="lead">I'm a guy</p>
+                <p class="lead">Hey! My name is Gerardo, I come from Spain. In this website I would kindly invite you to discover
+                the person I am and how I earn my life. In this section you can find a briefly information about me.</p>
             </div>
 
         </div>
@@ -150,26 +148,19 @@
     <div class="row about-content">
 
         <div class="col-six tab-full">
-            <ul class="info-list">
+            <h2>Profile</h2>
+   			<ul class="info-list">
                 <li>
                     <strong>Fullname:</strong>
                     <span>Gerardo Medina Déniz</span>
                 </li>
                 <li>
-                    <strong>Birth Date:</strong>
-                    <span>November 17, 1995</span>
+                    <strong>Birth Year:</strong>
+                    <span>1995</span>
                 </li>
                 <li>
                     <strong>Birth Place:</strong>
                     <span>Las Palmas, Spain</span>
-                </li>
-                <li>
-                    <strong>Website:</strong>
-                    <span>www.gerardomedina.net</span>
-                </li>
-                <li>
-                    <strong>Email:</strong>
-                    <span>gera.mdlh@gmail.com</span>
                 </li>
 
             </ul> <!-- /info-list -->
@@ -177,26 +168,19 @@
         </div>
 
         <div class="col-six tab-full">
+            <h2>Languages</h2>
             <ul class="skill-bars">
                 <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
+                    <div class="progress percent100"><span>100%</span></div>
+                    <strong>Spanish</strong>
                 </li>
                 <li>
-                    <div class="progress percent85"><span>80%</span></div>
-                    <strong>CSS3</strong>
+                    <div class="progress percent65"><span>65%</span></div>
+                    <strong>English</strong>
                 </li>
                 <li>
-                    <div class="progress percent70"><span>60%</span></div>
-                    <strong>JavaScript</strong>
-                </li>
-                <li>
-                    <div class="progress percent95"><span>70%</span></div>
-                    <strong>PHP</strong>
-                </li>
-                <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Wordpress</strong>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>German</strong>
                 </li>
 
             </ul> <!-- /skill-bars -->
@@ -207,7 +191,7 @@
 
     <div class="row button-section">
         <div class="col-twelve">
-            <a href="https://github.com/gerasp" title="Hire Me" class="button stroke smoothscroll">GitHub profile</a>
+            <a href="https://github.com/gerasp" class="button stroke">GitHub Profile</a>
             <a href="#" title="Download CV" class="button button-primary">Full CV</a>
         </div>
     </div>
@@ -225,8 +209,7 @@
             <h5>Resume</h5>
             <h1>More of my credentials.</h1>
 
-            <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi
-                aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+            <p class="lead">In the following section, you will find the main parts of my academic and work life, as well as some hobbies and skills</p>
 
         </div>
     </div> <!-- /section-intro-->
@@ -329,76 +312,107 @@
     <div class="row">
         <div class="col-twelve resume-header">
 
-            <h2>Another courses</h2>
+            <h2>Skills & Hobbies</h2>
 
         </div> <!-- /resume-header -->
 
         <div id="owl-slider" class="owl-carousel services-list">
-
-
             <div class="service">
-                <span class="icon"><i class="icon-earth"></i></span>
+                <span class="icon"><i class="fa fa-cogs"></i></span>
                 <div class="service-content">
-                    <h3>Webdesign</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <h3>Software Engineering</h3>
+                    <p class="desc">
+                        It was my specialization, because I love it. I can elaborate UML diagrams (Cases of use, clases).
+                        I also acquired knowledge in the management of every step in a software project. Some agile methodologies like SCRUM are something I meet almost every day in my work experience.
                     </p>
                 </div>
             </div> <!-- /service -->
             <div class="service">
-                <span class="icon"><i class="icon-window"></i></span>
+                <span class="icon"><i class="fa fa-desktop"></i></span>
+                <div class="service-content">
+                    <h3>Programming</h3>
+                    <p class="desc">My mother language in a Computer Science context, is Java. I have used it in my Degree since the very first date.
+                        Another programming language I use to programm with is Python, due to its simple sintax.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-globe"></i></span>
                 <div class="service-content">
                     <h3>Web Development</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <p class="desc">Thanks to some external courses, I control and can use the most important technologies at the front-end: HTML5, CSS3, JavaScript (as well as jQuery).
+                        For the back-end, I have also knowledge of PHP and MySQL and frameworks like Django or Symfony. The CMS I have used is Wordpress.
                     </p>
                 </div>
             </div> <!-- /service -->
             <div class="service">
-                <span class="icon"><i class="icon-paint-brush"></i></span>
+                <span class="icon"><i class="fa fa-android"></i></span>
                 <div class="service-content">
-                    <h3>Branding</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <h3>Android Development</h3>
+                    <p class="desc">During my work experience, I have met with the Android-Development world. Since it is a framework,
+                        one has the most difficulties at the beginning. But with the experience, it becomes much easier. The IDE is, of course, Android Studio.
                     </p>
                 </div>
             </div> <!-- /service -->
             <div class="service">
-                <span class="icon"><i class="icon-toggles"></i></span>
+                <span class="icon"><i class="fa fa-git"></i></span>
                 <div class="service-content">
-                    <h3>UI/UX Design</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <h3>Version Control</h3>
+                    <p class="desc">As one of the best tools in software engineering or any project in general, I use git every day,
+                        in order to take the control of the history of a project. I learned how to use with several courses and in my degree.
                     </p>
                 </div>
             </div> <!-- /service -->
             <div class="service">
-                <span class="icon"><i class="icon-image"></i></span>
+                <span class="icon"><i class="fa fa-briefcase"></i></span>
                 <div class="service-content">
-                    <h3>Graphics Design</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <h3>Office Suites</h3>
+                    <p class="desc">
+                        I have used during my entire life tools like MS-Office and LibreOffice, when the money was not enough. I did in my childhood a complete MS-Office course. Since then I use these tools very often.
                     </p>
                 </div>
             </div> <!-- /service -->
             <div class="service">
-                <span class="icon"><i class="icon-chat"></i></span>
+                <span class="icon"><i class="fa fa-paint-brush"></i></span>
                 <div class="service-content">
-                    <h3>Consultancy</h3>
-                    <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit.
+                    <h3>Design</h3>
+                    <p class="desc">I learned on my own the basic concepts of image processing and programms
+                        like GIMP or Inkscape (for vector graphics).
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-gamepad"></i></span>
+                <div class="service-content">
+                    <h3>Game Development</h3>
+                    <p class="desc">I learned during my studies how to build a 2D videogame in Unity. I have used also PyGame, where I developed a
+                        kind of "Space Invaders"
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-keyboard-o"></i></span>
+                <div class="service-content">
+                    <h3>Typing</h3>
+                    <p class="desc">I am proud I did a course in my childhood, where I learn how to type correctly with the keyboard. Today I can do it very fast,
+                        and that means usually more productivity!
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-music"></i></span>
+                <div class="service-content">
+                    <h3>Music</h3>
+                    <p class="desc">One of my favourite passions. When I have time and am happy, I use to play piano.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-car"></i></span>
+                <div class="service-content">
+                    <h3>Driving</h3>
+                    <p class="desc">I obtained the B driver license. That allows me to drive all kinds of cars and some motorcycles,
+                        but it's not my passion at all.
                     </p>
                 </div>
             </div> <!-- /service -->
@@ -413,40 +427,33 @@
     <div class="row section-intro">
         <div class="col-twelve">
             <h5>Contact</h5>
-            <h1>I'd Love To Hear From You.</h1>
-            <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi
-                aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+            <h1>I'd love to hear from you.</h1>
+            <p class="lead">In order to stay in touch with me, I provide you in the following section some ways to do that.</p>
         </div>
     </div> <!-- /section-intro -->
     <div class="row contact-info">
         <div class="col-four tab-full">
             <div class="icon">
-                <i class="icon-pin"></i>
+                <i class="fa fa-map-marker"></i>
             </div>
             <h5>Where to find me</h5>
-            <p>
-                1600 Amphitheatre Parkway<br>
-                Mountain View, CA<br>
-                94043 US
+            <p>Las Palmas, Spain
             </p>
         </div>
         <div class="col-four tab-full">
             <div class="icon">
-                <i class="icon-mail"></i>
+                <i class="fa fa-envelope"></i>
             </div>
             <h5>Email Me At</h5>
-            <p>someone@kardswebsite.com<br>
-                info@kardswebsite.com
+            <p>info@gerardomedina.net
             </p>
         </div>
         <div class="col-four tab-full">
             <div class="icon">
-                <i class="icon-phone"></i>
+                <i class="fa fa-skype"></i>
             </div>
             <h5>Call Me At</h5>
-            <p>Phone: (+63) 555 1212<br>
-                Mobile: (+63) 555 0100<br>
-                Fax: (+63) 555 0101
+            <p>Skype: gera.medina
             </p>
         </div>
     </div> <!-- /contact-info -->
@@ -455,7 +462,6 @@
 
 <!-- footer
 ================================================== -->
-
 <footer>
     <div class="row">
 
@@ -494,8 +500,7 @@
 ================================================== -->
 
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script src="js/lang.js"></script>
 <script src="js/custom.js"></script>

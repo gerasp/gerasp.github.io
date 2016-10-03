@@ -34,16 +34,13 @@
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
-.navbar-custom a {
-  color: white;
-}
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #DF0101;
   outline: none;
   background-color: transparent;
 }
@@ -97,6 +94,8 @@
 
 .flag {
   margin-right: 22px;
+  height: 24px;
+  width: 24px;
 }
 
 p {
@@ -108,5 +107,15 @@ p {
 }
 
 .fa:hover {
-  color: #9a0000;
+	color: #DF0101;
+}
+.navbar-brand:hover {
+	color: #DF0101;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom a:hover{
+  background-color: transparent;
+  color: #DF0101;
 }
