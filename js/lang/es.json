@@ -4,23 +4,31 @@
 		"Spanish":"Español",
 		"English":"Inglés",
 		"German":"Alemán",
+		"About":"Sobre mí",
 		"Resume":"Currículum",
 		"Contact":"Contacto",
-		"Welcome to my website":"Wilkommen in meiner Webseite",
+		"Welcome to my website":"Bienvenido a mi sitio web",
 		"Web developer":"Desarrollador web",
 		"Software engineer":"Ingeniero de software",
-		"About me":"Sobre mí",
-		"About":"Sobre mí",
-		"Let me introduce myself":"Permíteme presentarme",
-		"I'm a guy":"hola soy un chico",
+		"Discover more":"Descubre más",
+		"Let me introduce myself.":"Permíteme presentarme.",
+		"about-intro":"¡Ey!, Me llamo Gerardo y vengo de España. En esta página te invito a descubrir la persona que soy y como me gano la vida. Aquí te dejo un poco de información sobre mí.",
 		"Profile":"Perfil",
 		"Fullname:":"Nombre completo:",
-		"Birth Date:":"Fecha de nacimiento:",
-		"November 17, 1995":"17 de noviembre de 1995",
+		"Birth Year:":"Año de nacimiento:",
 		"Birth Place:":"Lugar de nacimiento:",
 		"Las Palmas, Spain":"Las Palmas, España",
-		"Website:":"Sitio web:",
-		"Skills:":"Habilidades:"
+		"Languages":"Idiomas",
+		"GitHub Profile":"Perfil de GitHub",
+		"Full CV":"CV completo",
+		"More of my credentials.":"Un desglose de mi experiencia.",
+		"resume-intro":"En la siguiente sección, encontrarás las principales partes de mi vida académica y profesional, así como unas cuantas habilidades.",
+        "Work experience":"Experiencia laboral",
+        "Internship":"Prácticas",
+        "sf-text":"Trabajé en esta compañía como Desarrollador Web. Los proyectos se hicieron con Symfony y PHP así como con Wordpress. Además hice mi TFG aquí: una aplicación para Android.",
+        "Education":"Educación"
+
+
 
 	}
 }
