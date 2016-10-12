@@ -7,6 +7,11 @@ function collapseNavbar() {
     }
 }
 
+function collapseOnClick() {
+    if ($(".navbar").offset().top < 50) {
+        $(".navbar-fixed-top").toggleClass("top-nav-collapse");
+    }
+}
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);

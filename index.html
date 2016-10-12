@@ -16,6 +16,7 @@
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#B40404">
 
     <!-- CSS
     ================================================== -->
@@ -44,27 +45,27 @@
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <a type="button" class="navbar-toggle" onclick="collapseOnClick()" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </a>
             <div class="btn-group">
-                <a type="button" class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">
-                    <i class="fa fa-globe"></i> Change language <i class="fa fa-angle-down"></i>
-                </a>
+                <button class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    <i class="fa fa-globe"></i><strong> Change language </strong><i class="fa fa-angle-down"></i>
+                </button>
                 <ul class="dropdown-menu">
-                    <li><a href="#" class="change-lang change-lang-es"><img class="flag"
+                    <li><a href="" class="change-lang change-lang-es"><img class="flag"
                                                                             src="images/icons/es.png"
                                                                             alt="es"/>
-                        Spanish</a></li>
-                    <li><a href="#" class="change-lang change-lang-en"><img class="flag"
+                        <strong>Spanish</strong></a></li>
+                    <li><a href="" class="change-lang change-lang-en"><img class="flag"
                                                                             src="images/icons/en.png"
                                                                             alt="en"/>
-                        English</a></li>
-                    <li><a href="#" class="change-lang change-lang-de"><img class="flag"
+                        <strong>English</strong></a></li>
+                    <li><a href="" class="change-lang change-lang-de"><img class="flag"
                                                                             src="images/icons/de.png"
                                                                             alt="de"/>
-                        German</a></li>
+                        <strong>German</strong></a></li>
                 </ul>
             </div>
         </div>
@@ -119,7 +120,8 @@
             <h1>Let me introduce myself.</h1>
             <div class="intro-info">
                 <img src="images/profile-pic.jpg" alt="Profile Picture">
-                <p class="lead" id="about-intro">Hey! My name is Gerardo, I come from Spain. In this website I would kindly invite you to discover
+                <p class="lead" id="about-intro">Hey! My name is Gerardo, I come from Spain. In this website I would
+                    kindly invite you to discover
                     the person I am and how I earn my life. Here you can find a briefly information about me.</p>
             </div>
         </div>
@@ -162,6 +164,91 @@
             </ul> <!-- /skill-bars -->
         </div>
     </div>
+    <div class="row about-content">
+        <h2 class="about-content-centered">Skills</h2>
+        <div id="owl-slider" class="owl-carousel services-list">
+            <div class="service">
+                <span class="icon"><i class="fa fa-cogs"></i></span>
+                <div class="service-content">
+                    <h3>Software Engineering</h3>
+                    <p class="desc">
+                        UML diagrams (Use case, Class).
+                        Software proyects management.
+                        Agile methodologies like SCRUM.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-desktop"></i></span>
+                <div class="service-content">
+                    <h3>General Programming</h3>
+                    <p class="desc">My mother language: Java.
+                        Also knowledge of: Python.
+                        IDEs: Eclipse, NetBeans and Intellij Suite.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-globe"></i></span>
+                <div class="service-content">
+                    <h3>Web Development</h3>
+                    <p class="desc">Front-end: HTML5, CSS3, JavaScript, jQuery & Bootstrap.
+                        Back-end: PHP, Django & Symfony. CMS: Wordpress.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-database"></i></span>
+                <div class="service-content">
+                    <h3>Databases Management</h3>
+                    <p class="desc">
+                        In my degree, I learn the SQL Language, MySQL and Oracle Databases and the Entity-Relation
+                        model
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-android"></i></span>
+                <div class="service-content">
+                    <h3>Android Development</h3>
+                    <p class="desc">During my work experience, I met with the Android-Development world. IDE:
+                        Android
+                        Studio.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-git"></i></span>
+                <div class="service-content">
+                    <h3>Version Control</h3>
+                    <p class="desc">After doing some courses and learning it in the university, git has become one
+                        of
+                        the main tools in my proyects.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-briefcase"></i></span>
+                <div class="service-content">
+                    <h3>Office Suites</h3>
+                    <p class="desc">
+                        Since I learned it in my childhood I use MS-Office and LibreOffice. That includes Writer,
+                        PowerPoint and Excel.
+
+                    </p>
+                </div>
+            </div> <!-- /service -->
+            <div class="service">
+                <span class="icon"><i class="fa fa-image"></i></span>
+                <div class="service-content">
+                    <h3>Image Processing</h3>
+                    <p class="desc">I learned on my own the basic concepts of image processing and programms
+                        like GIMP and vector graphs with Inkscape.
+                    </p>
+                </div>
+            </div> <!-- /service -->
+        </div> <!-- /courses-list -->
+    </div>
 
     <div class="row button-section">
         <div class="col-twelve">
@@ -180,8 +267,8 @@
         <div class="col-twelve">
             <h5>Resume</h5>
             <h1>More of my credentials.</h1>
-            <p class="lead" id="resume-intro">In the following section, you will find the main parts of my academic and professional life, as well
-                as some skills.</p>
+            <p class="lead" id="resume-intro">In the following section, you will find the main parts of my academic and
+                professional life.</p>
         </div>
     </div> <!-- /section-intro-->
 
@@ -248,8 +335,10 @@
 
                     <div class="timeline-content">
                         <h4>Secondary School</h4>
-                        <p>I obtained 12.824 points out of 14 in the spanish University Access Test, and also obtained 9,59 out of 10 points "with honors" (Matrícula de honor)
-                            at the end of the 2 years of preparation, in which one should study to enter the University (Bachillerato).</p>
+                        <p>I obtained 12.824 points out of 14 in the spanish University Access Test, and also obtained
+                            9,59 out of 10 points "with honors" (Matrícula de honor)
+                            at the end of the 2 years of preparation, in which one should study to enter the University
+                            (Bachillerato).</p>
                     </div>
 
                 </div> <!-- /timeline-block -->
@@ -259,7 +348,7 @@
         </div> <!-- /col-twelve -->
 
     </div> <!-- /resume-timeline -->
-        <div class="row resume-timeline">
+    <div class="row resume-timeline">
 
         <div class="col-twelve resume-header">
 
@@ -284,7 +373,8 @@
 
                     <div class="timeline-content">
                         <h4>The Singular Factory SL</h4>
-                        <p id="sf-text">I worked in this company as a Web developer. The proyects were made with Symfony/PHP as well
+                        <p id="sf-text">I worked in this company as a Web developer. The proyects were made with
+                            Symfony/PHP as well
                             as Wordpress.
                             Moreover, I made my dissertation in this company: An Android App.</p>
                     </div>
@@ -297,100 +387,7 @@
 
     </div> <!-- /resume-timeline -->
 
-    <div class="row">
-        <div class="col-twelve resume-header">
-            <h2>Skills</h2>
-        </div> <!-- /resume-header -->
 
-        <div id="owl-slider" class="owl-carousel services-list">
-            <div class="service">
-                <span class="icon"><i class="fa fa-cogs"></i></span>
-                <div class="service-content">
-                    <h3>Software Engineering</h3>
-                    <p class="desc">
-                        UML diagrams (Use case, Class).
-                        Software proyects management.
-                        Agile methodologies like SCRUM.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-desktop"></i></span>
-                <div class="service-content">
-                    <h3>General Programming</h3>
-                    <p class="desc">My mother language: Java.
-                        Also knowledge of: Python.
-                        IDEs: Eclipse, NetBeans and Intellij Suite.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-globe"></i></span>
-                <div class="service-content">
-                    <h3>Web Development</h3>
-                    <p class="desc">Front-end: HTML5, CSS3, JavaScript, jQuery & Bootstrap.
-                        Back-end: PHP, Django & Symfony. CMS: Wordpress.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-database"></i></span>
-                <div class="service-content">
-                    <h3>Databases Management</h3>
-                    <p class="desc">
-                        In my degree, I learn the SQL Language, MySQL and Oracle Databases and the Entity-Relation model
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-android"></i></span>
-                <div class="service-content">
-                    <h3>Android Development</h3>
-                    <p class="desc">During my work experience, I met with the Android-Development world. IDE: Android
-                        Studio.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-git"></i></span>
-                <div class="service-content">
-                    <h3>Version Control</h3>
-                    <p class="desc">After doing some courses and learning it in the university, git has become one of
-                        the main tools in my proyects.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-briefcase"></i></span>
-                <div class="service-content">
-                    <h3>Office Suites</h3>
-                    <p class="desc">
-                        Since I learned it in my childhood I use MS-Office and LibreOffice. That includes Writer,
-                        PowerPoint and Excel.
-
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-image"></i></span>
-                <div class="service-content">
-                    <h3>Image Processing</h3>
-                    <p class="desc">I learned on my own the basic concepts of image processing and programms
-                        like GIMP. Also vector graphs with Inkscape.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-gamepad"></i></span>
-                <div class="service-content">
-                    <h3>Game Development</h3>
-                    <p class="desc">I learned during my studies how to build a 2D videogame in Unity. I have used also
-                        PyGame.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-        </div> <!-- /courses-list -->
-    </div>
 </section> <!-- /resume -->
 
 <!-- contact
@@ -401,7 +398,7 @@
         <div class="col-twelve">
             <h5>Contact</h5>
             <h1>I'd love to hear from you.</h1>
-            <p class="lead">In order to stay in touch with me, I provide you in the following section some ways to do
+            <p class="lead" id="contact-text">In order to stay in touch with me, I provide you in the following section some ways to do
                 that.</p>
         </div>
     </div> <!-- /section-intro -->
@@ -411,8 +408,7 @@
                 <i class="fa fa-map-marker"></i>
             </div>
             <h5>Where to find me</h5>
-            <p>Las Palmas, Spain
-            </p>
+            <p>Las Palmas, Spain</p>
         </div>
         <div class="col-four tab-full">
             <div class="icon">
@@ -450,12 +446,9 @@
 
         <div class="col-six tab-full">
             <div class="copyright">
-                <span>© Copyright Kards 2016.</span>
-                <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+                <span>© Gerardo Medina 2016</span>
+                <span>Design by </span> <a href="http://www.styleshout.com/">styleshout</a>
             </div>
-        </div>
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
         </div>
     </div> <!-- /row -->
 </footer>
@@ -467,13 +460,20 @@
 
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-85506057-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-85506057-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 

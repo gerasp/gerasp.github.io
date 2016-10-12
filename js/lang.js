@@ -8,7 +8,9 @@ $(document).ready(function () {
     });
 });
 
-$(".change-lang").click(function () {
+$(".change-lang").click(function (e) {
+    e.preventDefault();
+
     var langBefore = document.documentElement.lang;
     var langAfter;
 

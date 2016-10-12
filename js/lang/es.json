@@ -1,6 +1,6 @@
 {
 	"token": {
-		"Change language":"Cambiar idioma",
+		" Change language ":" Cambiar idioma ",
 		"Spanish":"Español",
 		"English":"Inglés",
 		"German":"Alemán",
@@ -21,14 +21,29 @@
 		"Languages":"Idiomas",
 		"GitHub Profile":"Perfil de GitHub",
 		"Full CV":"CV completo",
+
 		"More of my credentials.":"Un desglose de mi experiencia.",
-		"resume-intro":"En la siguiente sección, encontrarás las principales partes de mi vida académica y profesional, así como unas cuantas habilidades.",
+		"resume-intro":"En la siguiente sección, encontrarás las principales partes de mi vida académica y profesional.",
+
         "Work experience":"Experiencia laboral",
         "Internship":"Prácticas",
         "sf-text":"Trabajé en esta compañía como Desarrollador Web. Los proyectos se hicieron con Symfony y PHP así como con Wordpress. Además hice mi TFG aquí: una aplicación para Android.",
-        "Education":"Educación"
+
+        "Education":"Educación",
+
+
+        "Software Engineering":"Ingeniería de Software",
+        "General Programming":"Programación",
+        "Web Development":"Desarrollo Web",
+        "Databases Management":"Manejo de Bases de Datos",
 
 
 
+        "I'd love to hear from you.":"Me encantaría recibir sus dudas.",
+        "contact-text":"Para ello, aquí le dejo varias maneras de contactar conmigo",
+        "Where to find me":"Donde encontrarme",
+        "Email Me At":"Envíe un email a",
+        "Call Me At":"Llámeme a",
+        "Design by ":"Diseño por "
 	}
 }
