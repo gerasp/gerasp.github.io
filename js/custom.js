@@ -5,6 +5,7 @@ function collapseNavbar() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+    $(".goog-te-gadget-icon").addClass("fa fa-google");
 }
 
 function collapseOnClick() {

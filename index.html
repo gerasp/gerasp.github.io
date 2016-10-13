@@ -45,28 +45,12 @@
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" onclick="collapseOnClick()" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <button type="button" class="navbar-toggle" onclick="collapseOnClick()" data-toggle="collapse"
+                    data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <div class="btn-group">
-                <button class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">
-                    <i class="fa fa-globe"></i><strong> Change language </strong><i class="fa fa-angle-down"></i>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="" class="change-lang change-lang-es"><img class="flag"
-                                                                            src="images/icons/es.png"
-                                                                            alt="es"/>
-                        <strong>Spanish</strong></a></li>
-                    <li><a href="" class="change-lang change-lang-en"><img class="flag"
-                                                                            src="images/icons/en.png"
-                                                                            alt="en"/>
-                        <strong>English</strong></a></li>
-                    <li><a href="" class="change-lang change-lang-de"><img class="flag"
-                                                                            src="images/icons/de.png"
-                                                                            alt="de"/>
-                        <strong>German</strong></a></li>
-                </ul>
+            <div class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false" id="google_translate_element">
             </div>
         </div>
 
@@ -81,7 +65,7 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#resume">Resume</a>
+                    <a class="page-scroll" href="#resume">CV</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -120,7 +104,7 @@
             <h1>Let me introduce myself.</h1>
             <div class="intro-info">
                 <img src="images/profile-pic.jpg" alt="Profile Picture">
-                <p class="lead" id="about-intro">Hey! My name is Gerardo, I come from Spain. In this website I would
+                <p class="lead">Hey! My name is Gerardo, I come from Spain. In this website I would
                     kindly invite you to discover
                     the person I am and how I earn my life. Here you can find a briefly information about me.</p>
             </div>
@@ -267,7 +251,7 @@
         <div class="col-twelve">
             <h5>Resume</h5>
             <h1>More of my credentials.</h1>
-            <p class="lead" id="resume-intro">In the following section, you will find the main parts of my academic and
+            <p class="lead">In the following section, you will find the main parts of my academic and
                 professional life.</p>
         </div>
     </div> <!-- /section-intro-->
@@ -398,7 +382,8 @@
         <div class="col-twelve">
             <h5>Contact</h5>
             <h1>I'd love to hear from you.</h1>
-            <p class="lead" id="contact-text">In order to stay in touch with me, I provide you in the following section some ways to do
+            <p class="lead" id="contact-text">In order to stay in touch with me, I provide you in the following section
+                some ways to do
                 that.</p>
         </div>
     </div> <!-- /section-intro -->
@@ -484,8 +469,21 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="js/lang.js"></script>
 <script src="js/custom.js"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,es,de',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false,
+            gaTrack: true,
+            gaId: 'UA-85506057-1'
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
