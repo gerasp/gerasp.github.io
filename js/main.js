@@ -20,7 +20,7 @@
             // will fade out the whole DIV that covers the website.
             $("#preloader").delay(300).fadeOut("slow");
             $(".goog-te-gadget-icon").replaceWith("<i class='fa fa-language' style='margin-right: 8px; font-size: 1.3em'></i>");
-
+            $(".goog-te-banner-frame").destroy();
         });
 
     })

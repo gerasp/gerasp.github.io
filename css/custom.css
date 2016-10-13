@@ -4,13 +4,13 @@
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1em;
     vertical-align: middle;
-    padding: 0px 20px 0px 20px !important;
+    padding: 10px 20px 0px 20px !important;
     font-size: 16px;
     background: transparent;
     color: white;
-    -webkit-transition: background 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 .navbar-custom .navbar-toggle:focus,
@@ -95,6 +95,9 @@ p {
 }
 
 .top-nav-collapse {
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -102,6 +105,8 @@ p {
 
 .goog-te-banner-frame {
     visibility: hidden !important;
+    display: none !important;
+    height:0 !important;
 }
 
 .goog-te-gadget-simple, #google-translate-element, .goog-te-menu-value span {
@@ -115,4 +120,7 @@ p {
 
 .goog-te-gadget-icon {
     background-image: none !important;
+}
+body {
+    top: 0 !important;
 }
