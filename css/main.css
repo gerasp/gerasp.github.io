@@ -677,7 +677,7 @@ a.button,
 button,
 input[type="submit"],
 input[type="reset"],
-input[type="button"] {
+input[type="button"]  {
 	display: inline-block;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.4rem;
