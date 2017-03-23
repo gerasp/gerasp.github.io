@@ -2,88 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd2cbee-0352-4446-936d-3ba65cd2f915" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.eot" afterPath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.eot" afterPath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.woff" afterPath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.eot" afterPath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.woff" afterPath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.eot" afterPath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.woff" afterPath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.eot" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.eot" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.eot" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.eot" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.eot" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.woff" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icons/de.png" afterPath="$PROJECT_DIR$/images/icons/de.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icons/en.png" afterPath="$PROJECT_DIR$/images/icons/en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icons/es.png" afterPath="$PROJECT_DIR$/images/icons/es.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/intro-bg.jpg" afterPath="$PROJECT_DIR$/images/intro-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/profile-pic.jpg" afterPath="$PROJECT_DIR$/images/profile-pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Kards10.iml" afterPath="$PROJECT_DIR$/.idea/Kards10.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/micons/micons.css" afterPath="$PROJECT_DIR$/css/micons/micons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vendor.css" afterPath="$PROJECT_DIR$/css/vendor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.svg" afterPath="$PROJECT_DIR$/fonts/lora/lora-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.svg" afterPath="$PROJECT_DIR$/fonts/lora/lora-bolditalic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.svg" afterPath="$PROJECT_DIR$/fonts/lora/lora-italic-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.svg" afterPath="$PROJECT_DIR$/fonts/lora/lora-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/lora/stylesheet.css" afterPath="$PROJECT_DIR$/fonts/lora/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.svg" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.svg" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-light-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.svg" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-medium-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.svg" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.svg" afterPath="$PROJECT_DIR$/fonts/poppins/poppins-semibold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/poppins/stylesheet.css" afterPath="$PROJECT_DIR$/fonts/poppins/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" afterPath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/js/jquery.easing.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/modernizr.js" afterPath="$PROJECT_DIR$/js/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pace.min.js" afterPath="$PROJECT_DIR$/js/pace.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="$PROJECT_DIR$/js/plugins.js" />
     </list>
     <ignored path="Kards10.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +36,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -128,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <marker date="1489103295089" expanded="true" signature="691:726" ph="..." />
               </folding>
@@ -139,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="174" column="22" lean-forward="false" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="174" column="36" lean-forward="false" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
               <folding>
                 <element signature="n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -194,9 +113,9 @@
         <option value="$PROJECT_DIR$/js/lang/es.json" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -227,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,12 +234,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AS_MDA/Dise+-ªo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -610,19 +529,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,6 +839,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <marker date="1489103295089" expanded="true" signature="691:726" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26622">
@@ -930,26 +859,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <marker date="1489103295089" expanded="true" signature="691:726" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="174" column="22" lean-forward="false" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="174" column="36" lean-forward="false" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
           <folding>
             <element signature="n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
