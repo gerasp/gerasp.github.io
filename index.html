@@ -1,423 +1,251 @@
-
-<!DOCTYPE html>
-<!--[if IE 8 ]>
-<html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]>
-<html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Gerardo Medina</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="theme-color" content="#B40404">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-    <script src="js/jquery-2.1.3.min.js"></script>
-
-    <!-- favicons
-     ================================================== -->
-    <link rel="icon" type="image/png" href="favicon.png">
-
-</head>
-<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
-<div id="page-top"></div>
-
-<!-- navigation
-================================================== -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" onclick="collapseOnClick()" data-toggle="collapse"
-                    data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true"
-                 aria-expanded="false" id="google_translate_element">
-            </div>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8"> 
+        <title>Gerardo Medina</title>         
+        <meta name="description" content="Personal website of Gerardo Medina"> 
+        <meta name="author" content="Gerardo Medina">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+        <meta name="theme-color" content="#B40404">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/main.css"> 
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="icon" type="image/png" href="favicon.png"> 
+    </head>     
+    <body id data-spy="scroll" data-target=".navbar" data-offset="50" class="text-center"> 
+        <nav class="navbar navbar-default text-center navbar-fixed-bottom" role="navigation" style="box-shadow: 0 0 15px grey; border: 0 solid black;">
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="#intro"><i class="fa fa-home fa-lg"></i><b class="hidden-xs hidden-sm">
+                    INTRO</b></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">Intro</a>
+                    <a href="#skills"><i class="fa fa-lg fa-cog"></i><b class="hidden-xs hidden-sm"> SKILLS</b></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#resume">CV</a>
+                    <a href="#portfolio"><i class="fa fa-lg fa-th-large"></i><b class="hidden-xs hidden-sm"> PORTFOLIO</b></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a href="#contact"><i class="fa fa-lg fa-phone"></i><b class="hidden-xs hidden-sm">&nbsp;CONTACT</b></a>
                 </li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-</nav>
-
-<!-- intro section
-================================================== -->
-<section id="intro">
-    <div class="intro-overlay"></div>
-
-    <div class="intro-content">
-        <div class="row">
-            <div class="col-twelve">
+        </nav>
+        <section id="cover"> 
+            <div class="cover-overlay"></div>             
+            <div class="cover-content">
                 <h5>Welcome to my website</h5>
                 <h1>Gerardo Medina</h1>
-                <p class="intro-position">
-                    <span>Web developer</span>
-                    <span>Software engineer</span>
-                </p>
-                <a class="button stroke smoothscroll" href="#about" title="">Discover more</a>
-            </div>
-        </div>
-    </div> <!-- /intro-content -->
-</section> <!-- /intro -->
-
-<!-- about section
-================================================== -->
-<section id="about">
-    <div class="row section-intro">
-        <div class="col-twelve">
-            <h5>Intro</h5>
-            <h1>Let me introduce myself.</h1>
-            <div class="intro-info">
-                <img src="images/profile-pic.jpg" alt="Profile Picture">
-                <p class="lead">Hey! My name is Gerardo, I come from Spain. In this website I would
-                    kindly invite you to discover
-                    the person I am and how I earn my life. Here you can find a short information about me.</p>
-            </div>
-        </div>
-    </div> <!-- /section-intro -->
-
-    <div class="row about-content">
-        <div class="col-six tab-full">
-            <h2>Profile</h2>
-            <ul class="info-list">
-                <li>
-                    <strong>Fullname:</strong>
-                    <span>Gerardo Medina Déniz</span>
-                </li>
-                <li>
-                    <strong>Birth Year:</strong>
-                    <span>1995</span>
-                </li>
-                <li>
-                    <strong>Birth Place:</strong>
-                    <span>Las Palmas, Spain</span>
-                </li>
-            </ul> <!-- /info-list -->
-        </div>
-
-        <div class="col-six tab-full">
-            <h2>Languages</h2>
-            <ul class="skill-bars">
-                <li>
-                    <div class="progress percent100"><span>100%</span></div>
-                    <strong>Spanish</strong>
-                </li>
-                <li>
-                    <div class="progress percent65"><span>65%</span></div>
-                    <strong>English</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>German</strong>
-                </li>
-            </ul> <!-- /skill-bars -->
-        </div>
-    </div>
-    <div class="row about-content">
-        <h2 class="about-content-centered">Skills</h2>
-        <div id="owl-slider" class="owl-carousel services-list">
-            <div class="service">
-                <span class="icon"><i class="fa fa-cogs"></i></span>
-                <div class="service-content">
-                    <h3>Software Engineering</h3>
-                    <p class="desc">
-                        UML diagrams (Use case, Class).
-                        Software projects management.
-                        Agile methodologies like SCRUM.
-                        Design patterns like MVC.
-                    </p>
+                <p class="cover-position"> <span>Web developer</span> <span>Software engineer</span> </p>
+                <div class="row">
+                    <a href="https://github.com/gerasp" class="button stroke"><i class="fa fa-github fa-lg" style="color: white;"></i>&nbsp;GitHub Profile</a>
+                    <a class="button stroke smoothscroll" href="#intro" title="">Discover more <i class="fa fa-chevron-circle-down fa-lg" style="color: white;"></i></a>
+                </div>                 
+            </div>             
+            <!-- /intro-content -->             
+        </section>
+        <section id="intro" class="section"> 
+            <div class="container"> 
+                <div class="row section-intro"> 
+                    <h5>Intro</h5>
+                    <h1>Let me introduce myself.</h1>
+                    <div class="intro-info"> 
+                        <img src="images/profile-pic.jpg" alt="Profile Picture"> 
+                        <p class="lead">Hey! My name is Gerardo, I come from Spain. In this website I would
+                        kindly invite you to discover
+                        the person I am and how I earn my life. Here you can find a short information about me.</p> 
+                    </div>
+                    <h2>Languages</h2>
+                    <ul class="skill-bars list-inline"> 
+                        <div class="col-md-4">
+                            <li> 
+                                <div class="progress percent100">
+                                    <span>100%</span>
+                                </div>                                 
+                                <strong>Spanish</strong> 
+                            </li>                             
+                        </div>
+                        <div class="col-md-4">
+                            <li> 
+                                <div class="progress percent60">
+                                    <span>100%</span>
+                                </div>
+                                <strong>English</strong> 
+                            </li>                             
+                        </div>                         
+                        <div class="col-md-4">
+                            <li> 
+                                <div class="progress percent80">
+                                    <span>100%</span>
+                                </div>                                 
+                                <strong>german</strong> 
+                            </li>                             
+                        </div>                         
+                    </ul>                     
+                </div>                 
+                <!-- /section-intro -->                 
+            </div>             
+        </section>         
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="row section-intro"> 
+                    <h5>Skills</h5>
+                    <h1>More of my credentials.</h1> 
                 </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-globe"></i></span>
-                <div class="service-content">
-                    <h3>Web Development</h3>
-                    <p class="desc">Front-end: HTML5, CSS3, JavaScript, jQuery & Bootstrap.
-                        Back-end: PHP, and frameworks like Java EE, Django & Symfony. CMS: Wordpress.
-                    </p>
+                <div id="owl-slider" class="owl-carousel services-list"> 
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-cogs"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Software Engineering</h3> 
+                            <p class="desc"> 
+                            UML diagrams (Use case, Class).
+                            Software projects management.
+                            Agile methodologies like SCRUM.
+                            Design patterns like MVC.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-globe"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Web Development</h3> 
+                            <p class="desc">Front-end: HTML5, CSS3, JavaScript, jQuery & Bootstrap.
+                            Back-end: PHP, and frameworks like Java EE, Django & Symfony. CMS: Wordpress.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-desktop"></i></span> 
+                        <div class="service-content"> 
+                            <h3>General Programming</h3> 
+                            <p class="desc">My mother language: Java.
+                            Python and object-oriented languages.
+                            IDEs: Intellij Suite, Eclipse and NetBeans.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-android"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Android Development</h3> 
+                            <p class="desc">During my work experience, I met with the Android-Development world. IDE:
+                            Android Studio.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-database"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Databases Management</h3> 
+                            <p class="desc"> 
+                            In my degree, I learned SQL and the Entity-Relation model. I have worked mainly with MySQL
+                            and Oracle Databases.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-git"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Version Control</h3> 
+                            <p class="desc">After doing some courses and learning it in the university, git has become one
+                            of
+                            the main tools, in order to turn my projects professional.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-image"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Image Processing</h3> 
+                            <p class="desc">I learned on my own the basic concepts of image processing and programms
+                            like GIMP and vector graphs with Inkscape.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
+                    <div class="service"> 
+                        <span class="icon"><i class="fa fa-briefcase"></i></span> 
+                        <div class="service-content"> 
+                            <h3>Office Suites</h3> 
+                            <p class="desc"> 
+                            Since I learned it in my childhood I use MS-Office and LibreOffice. That includes Word,
+                            PowerPoint and Excel.</p> 
+                        </div>                         
+                    </div>                     
+                    <!-- /service -->                     
                 </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-desktop"></i></span>
-                <div class="service-content">
-                    <h3>General Programming</h3>
-                    <p class="desc">My mother language: Java.
-                        Python and object-oriented languages.
-                        IDEs: Intellij Suite, Eclipse and NetBeans.
-                    </p>
+            </div>             
+        </section>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="row section-intro">
+                    <h5>Portfolio</h5>
+                    <h1>Check out some of my works.</h1>
                 </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-android"></i></span>
-                <div class="service-content">
-                    <h3>Android Development</h3>
-                    <p class="desc">During my work experience, I met with the Android-Development world. IDE:
-                        Android Studio.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-database"></i></span>
-                <div class="service-content">
-                    <h3>Databases Management</h3>
-                    <p class="desc">
-                        In my degree, I learned SQL and the Entity-Relation model. I have worked mainly with MySQL and Oracle Databases.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-git"></i></span>
-                <div class="service-content">
-                    <h3>Version Control</h3>
-                    <p class="desc">After doing some courses and learning it in the university, git has become one
-                        of
-                        the main tools, in order to turn my projects professional.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-image"></i></span>
-                <div class="service-content">
-                    <h3>Image Processing</h3>
-                    <p class="desc">I learned on my own the basic concepts of image processing and programms
-                        like GIMP and vector graphs with Inkscape.
-                    </p>
-                </div>
-            </div> <!-- /service -->
-            <div class="service">
-                <span class="icon"><i class="fa fa-briefcase"></i></span>
-                <div class="service-content">
-                    <h3>Office Suites</h3>
-                    <p class="desc">
-                        Since I learned it in my childhood I use MS-Office and LibreOffice. That includes Word,
-                        PowerPoint and Excel.
-
-                    </p>
-                </div>
-            </div> <!-- /service -->
-        </div> <!-- /courses-list -->
-    </div>
-
-    <div class="row button-section">
-            <a href="https://github.com/gerasp" class="button stroke">GitHub Profile</a>
-    </div>
-
-</section> <!-- /process-->
-
-<!-- resume Section
-================================================== -->
-<section id="resume" class="grey-section">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-            <h5>CV</h5>
-            <h1>More of my credentials.</h1>
-            <p class="lead">In the following section, you can find the main parts of my academic and
-                professional life.</p>
-        </div>
-    </div> <!-- /section-intro-->
-
-    <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
-            <h2>Education</h2>
-        </div> <!-- /resume-header -->
-        <div class="col-twelve">
-            <div class="timeline-wrap">
-                <div class="timeline-block">
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
+                <div class="row client-row">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip" title="Diktaplus: Dictation App for Android">
+                        <img alt="client" src="images/projects/DiktaPlus.png">
                     </div>
-                    <div class="timeline-header">
-                        <h3>University degree</h3>
-                        <p>Sep 2013 - Jun 2017</p>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip" title="ChronoMed: Your medical history, everywhere">
+                        <img alt="client" src="images/projects/ChronoMed.png">
                     </div>
-                    <div class="timeline-content">
-                        <h4>Universidad de Las Palmas de Gran Canaria</h4>
-                        <p>Grado en Ingeniería Informática. In English: Bachelor degree in Computer Engineering. Average
-                            mark: X out of 10. Specialization: Software Engineering.</p>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip" title="Das Tolle Forum: Ein schönes und funktionelles Forum, made with Django">
+                        <a href="https://dastolleforum.herokuapp.com/">
+                            <img alt="client" src="images/projects/DasTolleForum.png">
+                        </a>
                     </div>
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip" title="gerardomedina.net: You're seeing it right now!">
+                        <a href="http://www.gerardomedina.net/">
+                            <img alt="client" src="images/projects/GerardoMedinaNET.png">
+                        </a>
                     </div>
-                    <div class="timeline-header">
-                        <h3>Erasmus year</h3>
-                        <p>Sep 2015 - Jul 2016</p>
-                    </div>
-                    <div class="timeline-content">
-                        <h4>Technische Hochschule Brandenburg</h4>
-                        <p>B. Sc. Informatik. Erasmus+ Exchange period in Germany. It was necesary to speak English with
-                            the international mates and German in the lessons during these 2 semesters.</p>
-                    </div>
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-                    <div class="timeline-header">
-                        <h3>University access</h3>
-                        <p>Sep 2011 - Jun 2013</p>
-                    </div>
-                    <div class="timeline-content">
-                        <h4>Secondary School</h4>
-                        <p>I obtained 12.824 points out of 14 in the spanish University Access Test, and also obtained
-                            9,59 out of 10 points "with honors" (Matrícula de honor)
-                            at the end of the 2 years of preparation, in which one should study to enter the University
-                            (Bachillerato).</p>
-                    </div>
-                </div> <!-- /timeline-block -->
-            </div> <!-- /timeline-wrap -->
-        </div> <!-- /col-twelve -->
-    </div> <!-- /resume-timeline -->
-    <div class="row resume-timeline">
-
-        <div class="col-twelve resume-header">
-
-            <h2>Work experience</h2>
-
-        </div> <!-- /resume-header -->
-
-        <div class="col-twelve">
-
-            <div class="timeline-wrap">
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Internship</h3>
-                        <p>Sep 2016 - Feb 2017</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>The Singular Factory SL</h4>
-                        <p id="sf-text">I worked in this company as a Web/App developer. The proyects were made with
-                            Symfony/PHP as well
-                            as Wordpress. I also worked on the front-end of these web platforms.
-                            Moreover, I made my dissertation in this company: An Android App for dictations based on a Web Service.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-            </div> <!-- /timeline-wrap -->
-
-        </div> <!-- /col-twelve -->
-
-    </div> <!-- /resume-timeline -->
-</section> <!-- /resume -->
-
-<!-- contact
-================================================== -->
-<section id="contact">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-            <h5>Contact</h5>
-            <h1>I'd love to hear from you.</h1>
-            <p class="lead" id="contact-text">In order to stay in touch with me, I provide you in the following section
-                some ways to do
-                that.</p>
-        </div>
-    </div> <!-- /section-intro -->
-    <div class="row contact-info">
-        <div class="col-four tab-full">
-            <div class="icon">
-                <i class="fa fa-map-marker"></i>
-            </div>
-            <h5>Where to find me</h5>
-            <p>Las Palmas, Spain</p>
-        </div>
-        <div class="col-four tab-full">
-            <div class="icon">
-                <i class="fa fa-envelope"></i>
-            </div>
-            <h5>Email Me At</h5>
-            <p>info@gerardomedina.net
-            </p>
-        </div>
-        <div class="col-four tab-full">
-            <div class="icon">
-                <i class="fa fa-skype"></i>
-            </div>
-            <h5>Call Me At</h5>
-            <p>Skype: gera.medina
-            </p>
-        </div>
-    </div> <!-- /contact-info -->
-</section> <!-- /contact -->
-
-<!-- footer
-================================================== -->
-<footer>
-    <div class="row">
-        <div class="col-twelve tab-full" style="text-align: center">
-            <span>© Gerardo Medina 2017. Design by <a href="http://www.styleshout.com/">styleshout.</a> Translation is powered by Google Translate.</span>
-        </div>
-    </div> <!-- /row -->
-</footer>
-
-<div id="preloader">
-    <div id="loader"></div>
-</div>
-
-<!-- Java Script
-================================================== -->
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/custom.js"></script>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en',
-      includedLanguages: 'de,en,es,fr,it,pl,pt,ru',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      autoDisplay: false}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-</body>
-</html>
-
+                </div>                 
+            </div>             
+            <!-- /portfolio-content -->             
+        </section>         
+        <section id="contact" class="section">
+            <div class="row section-intro"> 
+                <h5>Contact</h5>
+                <h1>I'd love to hear from you.</h1> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.4013483806557!2d-15.453591885445855!3d28.07329808264172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40942fde2813a9%3A0x8b61a40c00405a46!2sUniversidad+de+Las+Palmas+de+Gran+Canaria%3A+Escuela+de+Ingenier%C3%ADa+Inform%C3%A1tica!5e0!3m2!1sde!2ses!4v1487770546552" frameborder="0" style="border:0" allowfullscreen="" width="100%"></iframe>
+            </div>             
+            <!-- /section-intro -->             
+            <div class="row contact-info"> 
+                <div class="col-sm-4"> 
+                    <div class="icon"> 
+                        <i class="fa fa-map-marker"></i> 
+                    </div>                     
+                    <h5>Where to find me</h5> 
+                    <p>Las Palmas, Spain</p> 
+                </div>                 
+                <div class="col-sm-4"> 
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i> 
+                    </div>                     
+                    <h5>Email Me At</h5> 
+                    <p>info@gerardomedina.net</p> 
+                </div>                 
+                <div class="col-sm-4"> 
+                    <div class="icon"> 
+                        <i class="fa fa-skype"></i> 
+                    </div>                     
+                    <h5>Call Me At</h5> 
+                    <p>Skype: gera.medina</p> 
+                </div>                 
+            </div>             
+            <!-- /contact-info -->             
+        </section>         
+        <footer> 
+            <div class="container"> 
+                <div class="col-sm-12 text-center"> 
+                    <span>© Gerardo Medina 2017. Design by <a href="http://www.styleshout.com/">styleshout.</a></span> 
+                </div>                 
+            </div>             
+        </footer>
+        <div id="preloader"> 
+            <div id="loader"></div>
+        </div>         
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>         
+        <script src="js/plugins.js"></script>         
+        <script src="js/main.js"></script>         
+    </body>

@@ -1,126 +1,60 @@
-.navbar-custom {
-    margin-bottom: 0;
+
+
+strong
+{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0;
+}
+
+/* TABS */
+
+.nav-tabs
+{
+    margin: 0 auto;
+    font-family: "poppins-bold", sans-serif;
+}
+
+.nav-tabs > li
+{
+    z-index: 2;
+    float: none;
+    display: inline-block;
+}
+
+.nav-tabs > li > a
+{
+    padding: 16px 25px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
     text-transform: uppercase;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1em;
-    vertical-align: middle;
-    padding: 10px 20px 0px 20px !important;
-    font-size: 16px;
-    background: transparent;
-    color: white;
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-}
-
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
-    outline: none;
-}
-
-.navbar-toggle {
-    outline: none;
-    color: white !important;
-    background-color: transparent !important;
-    font-size: 18px;
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.navbar-custom .navbar-brand, .navbar-nav {
-    background: transparent;
-    color: white;
-    display: inline !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    margin-top: 2px !important;
-}
-
-strong {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bolder;
-    letter-spacing: 0px;
-}
-
-.navbar-custom .navbar-brand:focus {
-    outline: none;
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover {
-    outline: none;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-    outline: none;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li.active {
-    outline: none;
-}
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: white;
-}
-
-.btn-group {
-
-    vertical-align: inherit;
-}
-
-.flag {
-    margin-right: 22px;
-    height: 24px;
-    width: 24px;
-}
-
-p {
-    line-height: 2em;
-}
-
-.navbar-custom a {
-    color: white;
-}
-
-.top-nav-collapse {
-    padding-top: 0px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-
-.goog-te-banner-frame {
-    visibility: hidden !important;
-    display: none !important;
-    height:0 !important;
-}
-
-.goog-te-gadget-simple, #google-translate-element, .goog-te-menu-value span {
-    background-color: transparent !important;
+    color: #737c85;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
     border: none !important;
-    color: white !important;
-    font-weight: bolder;
-    margin-top: 15px;
-    font-size: 16px;
+    border-bottom: 4px solid transparent !important;
 }
 
-.goog-te-gadget-icon {
-    background-image: none !important;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus
+{
+    background-color: transparent;
+    border-bottom: 4px solid red !important;
 }
-body {
-    top: 0 !important;
+
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    outline: 0;
 }
+
+footer
+{
+    margin-bottom: 50px;
+}
+
+
+
