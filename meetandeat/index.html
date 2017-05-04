@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Meet&amp;Eat</title>
+  <meta name="description" content="Stop wasting so much food"> </head>
+
+<body>
+  <div class="text-center d-flex h-100 align-items-center" style="background-image: url(&quot;images/cover-photo.jpg&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="offset-3 col-sm-6 bg-primary  shadowed-box"><br> <img src="images/logo/logo_transparent.png" class="mx-auto d-block rounded shadowed-box img-fluid w-25" style="width:10%"><br>
+          <h1 class="shadowed-text text-warning">Big meals made bigger</h1>
+          <div class="text-white">
+            <a href="#"><img src="images/google-play-badge.png" class="w-25"></a>or
+            <a href="#features" class="text-warning"> <strong>discover more</strong> </a>
+          </div><br> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section" id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h3 class="text-sm-center text-warning">USEFUL</h3>
+          <p class="text-justify my-1">Have you ever had the feeling everybody brings too much food at your parties, events or family meetings? Meet&amp;Eat is the App for you. Don't stop eating delicous food and keep the control!</p>
+        </div>
+        <div class="align-self-center col-md-2">
+          <h1 class="text-sm-center text-warning" style="vertical-align:center;">&amp;</h1>
+        </div>
+        <div class="col-md-5">
+          <h3 class="text-sm-center text-warning">SIMPLE</h3>
+          <p class="text-justify my-1">You will only need to think an username to sign up. Easy as 1 2 3. First create a new meeting. Then invite those people who you want to come. Finally, let them say what they want to bring.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 p-0"> <img src="images/carousel1.jpg" class="img-fluid m-0 p-0"> </div>
+        <div class="col-md-4 p-0"> <img src="images/carousel2.jpg" class="img-fluid m-0 p-0"> </div>
+        <div class="col-md-4 p-0"> <img src="images/carousel3.jpg" class="img-fluid m-0 p-0"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center bg-warning text-white">
+    <a> </a>
+    <h4 class="text-gray-dark"> <i class="fa fa-copyright"></i> Gerardo Medina 2017 | All images courtesy of <a href="https://unsplash.com/" class="text-gray-dark">Unsplash</a> | Designed with <a href="http://pingendo.com/" class="text-gray-dark">Pingendo</a>&nbsp;|&nbsp;<a href="http://gerardomedina.net/"
+        class="text-gray-dark">Personal Website</a>&nbsp;<i class="fa fa-globe"></i></h4>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+  <script>
+    $("a").on('click', function (event) {
+                  if (this.hash !== "") {
+                      event.preventDefault();
+                      var hash = this.hash;
+                      $('html, body').animate({
+                          scrollTop: $(hash).offset().top
+                      }, 800, function () {
+                          window.location.hash = hash;
+                      });
+                  }
+              });
+  </script>
+</body>
+
+</html>
