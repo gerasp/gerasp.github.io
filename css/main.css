@@ -1,41 +1,4 @@
 
-
-/**
- * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
- *  TOC:
- *  01. webfonts and iconfonts
- *  02. base style overrides
- *  03. typography & general theme styles
- *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. skills
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  17. contact
- *  18. footer
- *
- * =================================================================== 
- */
-
-/** 
- * ===================================================================
- * 01. webfonts and iconfonts - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- 
- */
-
 @import url("fonts.css");
 
 @import url("font-awesome/css/font-awesome.min.css");
@@ -117,7 +80,7 @@ a:hover, a:focus, a:active
  * ------------------------------------------------------------------- 
  */
 
-/*noinspection ALL*/
+
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06
 {
@@ -128,14 +91,14 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06
     margin-bottom: 2.1rem;
 }
 
-/*noinspection ALL*/
+
 
 h3, .h03, h4, .h04
 {
     margin-bottom: 1.8rem;
 }
 
-/*noinspection ALL*/
+
 
 h5, .h05, h6, .h06
 {
@@ -143,7 +106,7 @@ h5, .h05, h6, .h06
     margin-bottom: 1.2rem;
 }
 
-/*noinspection ALL*/
+
 
 h1, .h01
 {
@@ -154,7 +117,7 @@ h1, .h01
 
 @media only screen and (max-width:600px)
 {
-/*noinspection ALL*/
+
     h1, .h01
     {
         font-size: 2.6rem;
@@ -162,7 +125,7 @@ h1, .h01
     }
 }
 
-/*noinspection ALL*/
+
 
 h2, .h02
 {
@@ -170,7 +133,7 @@ h2, .h02
     line-height: 1.25;
 }
 
-/*noinspection ALL*/
+
 
 h3, .h03
 {
@@ -178,7 +141,7 @@ h3, .h03
     line-height: 1.5;
 }
 
-/*noinspection ALL*/
+
 
 h4, .h04
 {
@@ -186,7 +149,6 @@ h4, .h04
     line-height: 1.765;
 }
 
-/*noinspection ALL*/
 
 h5, .h05
 {
@@ -195,8 +157,6 @@ h5, .h05
     text-transform: uppercase;
     letter-spacing: .15rem;
 }
-
-/*noinspection ALL*/
 
 h6, .h06
 {
@@ -501,7 +461,7 @@ fieldset
  * -------------------------------------------------------------------
  */
 
-/*noinspection ALL*/
+
 
 img.pull-right
 {
@@ -513,7 +473,7 @@ img.pull-right
  * -------------------------------------------------------------------
  */
 
-/*noinspection ALL*/
+
 
 .bgrid
 {
@@ -522,7 +482,7 @@ img.pull-right
 
 @media only screen and (max-width:1024px)
 {
-/*noinspection ALL*/
+
     .bgrid
     {
         padding: 0 18px;
@@ -531,7 +491,7 @@ img.pull-right
 
 @media only screen and (max-width:768px)
 {
-/*noinspection ALL*/
+
     .bgrid
     {
         padding: 0 15px;
@@ -540,7 +500,7 @@ img.pull-right
 
 @media only screen and (max-width:600px)
 {
-/*noinspection ALL*/
+
     .bgrid
     {
         padding: 0 10px;
@@ -549,7 +509,7 @@ img.pull-right
 
 @media only screen and (max-width:400px)
 {
-/*noinspection ALL*/
+
     .bgrid
     {
         padding: 0;
@@ -561,7 +521,7 @@ img.pull-right
  * -------------------------------------------------------------------
  */
 
-/*noinspection ALL*/
+
 
 .pace
 {
@@ -572,14 +532,14 @@ img.pull-right
     user-select: none;
 }
 
-/*noinspection ALL*/
+
 
 .pace-inactive
 {
     display: none;
 }
 
-/*noinspection ALL*/
+
 
 .pace .pace-progress
 {
@@ -803,7 +763,7 @@ label > input[type="checkbox"], label > input[type="radio"]
     color: #a1a1a1;
 }
 
-/*noinspection ALL*/
+
 
 .placeholder
 {
@@ -896,7 +856,7 @@ button.full-width, .button.full-width
     margin-right: 0;
 }
 
-/*noinspection ALL*/
+
 
 button.medium, .button.medium
 {
@@ -905,7 +865,7 @@ button.medium, .button.medium
     padding: 0 1.8rem !important;
 }
 
-/*noinspection ALL*/
+
 
 button.large, .button.large
 {
@@ -921,14 +881,14 @@ button.stroke, .button.stroke
     line-height: 4.8rem;
 }
 
-/*noinspection ALL*/
+
 
 button.stroke.medium, .button.stroke.medium
 {
     line-height: 5.1rem !important;
 }
 
-/*noinspection ALL*/
+
 
 button.stroke.large, .button.stroke.large
 {
@@ -1204,7 +1164,7 @@ button::-moz-focus-inner, input::-moz-focus-inner
     margin-top: 5.5rem;
 }
 
-.skill-bars li
+.skill-bars div
 {
     height: .6rem;
     background: #a1a1a1;
@@ -1214,7 +1174,7 @@ button::-moz-focus-inner, input::-moz-focus-inner
     position: relative;
 }
 
-.skill-bars li strong
+.skill-bars div strong
 {
     position: absolute;
     left: 0;
@@ -1227,14 +1187,14 @@ button::-moz-focus-inner, input::-moz-focus-inner
     line-height: 2.4rem;
 }
 
-.skill-bars li .progress
+.skill-bars div .progress
 {
     background: #000000;
     position: relative;
     height: 100%;
 }
 
-.skill-bars li .progress span
+.skill-bars div .progress span
 {
     position: absolute;
     right: 0;
@@ -1249,7 +1209,7 @@ button::-moz-focus-inner, input::-moz-focus-inner
     border-radius: 3px;
 }
 
-.skill-bars li .progress span::after
+.skill-bars div .progress span::after
 {
     position: absolute;
     left: 50%;
@@ -1261,126 +1221,126 @@ button::-moz-focus-inner, input::-moz-focus-inner
     content: "";
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent5
+
+.skill-bars div .percent5
 {
     width: 5%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent10
+
+.skill-bars div .percent10
 {
     width: 10%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent15
+
+.skill-bars div .percent15
 {
     width: 15%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent20
+
+.skill-bars div .percent20
 {
     width: 20%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent25
+
+.skill-bars div .percent25
 {
     width: 25%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent30
+
+.skill-bars div .percent30
 {
     width: 30%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent35
+
+.skill-bars div .percent35
 {
     width: 35%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent40
+
+.skill-bars div .percent40
 {
     width: 40%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent45
+
+.skill-bars div .percent45
 {
     width: 45%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent50
+
+.skill-bars div .percent50
 {
     width: 50%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent55
+
+.skill-bars div .percent55
 {
     width: 55%;
 }
 
-/*noinspection ALL*/
 
-.skill-bars li .percent60
+
+.skill-bars div .percent60
 {
     width: 60%;
 }
 
-.skill-bars li .percent65
+.skill-bars div .percent65
 {
     width: 65%;
 }
 
-.skill-bars li .percent70
+.skill-bars div .percent70
 {
     width: 70%;
 }
 
-.skill-bars li .percent75
+.skill-bars div .percent75
 {
     width: 75%;
 }
 
-.skill-bars li .percent80
+.skill-bars div .percent80
 {
     width: 80%;
 }
 
-.skill-bars li .percent85
+.skill-bars div .percent85
 {
     width: 85%;
 }
 
-.skill-bars li .percent90
+.skill-bars div .percent90
 {
     width: 90%;
 }
 
-.skill-bars li .percent95
+.skill-bars div .percent95
 {
     width: 95%;
 }
 
-.skill-bars li .percent100
+.skill-bars div .percent100
 {
     width: 100%;
 }
@@ -2259,14 +2219,14 @@ header .top-bar
  * ------------------------------------------------------------------- 
  */
 
-/*noinspection ALL*/
+
 
 #portfolio
 {
     background: #ffffff;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-item
 {
@@ -2285,7 +2245,7 @@ header .top-bar
     transition: all 0.5s ease-in-out;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .overlay
 {
@@ -2302,7 +2262,7 @@ header .top-bar
     transition: all 0.5s ease-in-out;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-item-table
 {
@@ -2311,7 +2271,7 @@ header .top-bar
     height: 100%;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-item-cell
 {
@@ -2327,7 +2287,7 @@ header .top-bar
     left: -100%;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-title
 {
@@ -2337,7 +2297,7 @@ header .top-bar
     margin-bottom: 0;
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-types
 {
@@ -2350,14 +2310,14 @@ header .top-bar
     color: rgba(255, 255, 255, 0.6);
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-item:hover .overlay
 {
     background: rgba(0, 0, 0, 0.8);
 }
 
-/*noinspection ALL*/
+
 
 #portfolio .folio-item:hover .folio-item-cell
 {
@@ -2379,7 +2339,7 @@ header .top-bar
 
 @media only screen and (max-width:1024px)
 {
-/*noinspection ALL*/
+
     #portfolio .folio-title
     {
         font-size: 3.1rem;
@@ -2388,7 +2348,7 @@ header .top-bar
 
 @media only screen and (max-width:768px)
 {
-/*noinspection ALL*/
+
     #portfolio .folio-title
     {
         font-size: 2.5rem;
@@ -2397,7 +2357,7 @@ header .top-bar
 
 @media only screen and (max-width:400px)
 {
-/*noinspection ALL*/
+
     #portfolio .folio-title
     {
         font-size: 2.2rem;
@@ -2409,7 +2369,7 @@ header .top-bar
  * ------------------------------------------------------------------
  */
 
-/*noinspection ALL*/
+
 
 .popup-modal
 {
@@ -2419,7 +2379,7 @@ header .top-bar
     margin: 0 auto;
 }
 
-/*noinspection ALL*/
+
 
 .popup-modal .media
 {
@@ -2431,7 +2391,7 @@ header .top-bar
     vertical-align: bottom;
 }
 
-/*noinspection ALL*/
+
 
 .popup-modal .description-box
 {
@@ -2454,7 +2414,7 @@ header .top-bar
     margin-bottom: 12px;
 }
 
-/*noinspection ALL*/
+
 
 .popup-modal .categories
 {
@@ -2468,7 +2428,7 @@ header .top-bar
     color: rgba(0, 0, 0, 0.5);
 }
 
-/*noinspection ALL*/
+
 
 .popup-modal .link-box
 {
@@ -2510,7 +2470,7 @@ header .top-bar
 
 @media only screen and (max-width:600px)
 {
-/*noinspection ALL*/
+
     .popup-modal
     {
         width: auto;
@@ -2525,7 +2485,7 @@ header .top-bar
 
 /* overlay at start */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-bg
 {
@@ -2539,7 +2499,7 @@ header .top-bar
 
 /* overlay animate in */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-bg.mfp-ready
 {
@@ -2548,7 +2508,7 @@ header .top-bar
 
 /* overlay animate out */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-bg.mfp-removing
 {
@@ -2557,7 +2517,7 @@ header .top-bar
 
 /* content at start */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-wrap .mfp-content
 {
@@ -2574,7 +2534,7 @@ header .top-bar
 
 /* content animate in */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content
 {
@@ -2586,7 +2546,7 @@ header .top-bar
 
 /* content animate out */
 
-/*noinspection ALL*/
+
 
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content
 {
@@ -2603,7 +2563,7 @@ header .top-bar
  * ------------------------------------------------------------------- 
  */
 
-/*noinspection ALL*/
+
 
 #cta
 {
@@ -2617,14 +2577,14 @@ header .top-bar
     color: #6e6e6e;
 }
 
-/*noinspection ALL*/
+
 
 .cta-content
 {
     max-width: 640px;
 }
 
-/*noinspection ALL*/
+
 
 .cta-thumb
 {
@@ -2681,7 +2641,7 @@ header .top-bar
 
 @media only screen and (max-width:650px)
 {
-/*noinspection ALL*/
+
     .cta-content
     {
         max-width: 650px;
@@ -2699,7 +2659,7 @@ header .top-bar
  * ------------------------------------------------------------------- 
  */
 
-/*noinspection ALL*/
+
 
 #services
 {
@@ -2712,7 +2672,7 @@ header .top-bar
     position: relative;
 }
 
-/*noinspection ALL*/
+
 
 #services .overlay
 {
@@ -2745,7 +2705,7 @@ header .top-bar
     color: rgba(255, 255, 255, 0.7);
 }
 
-/*noinspection ALL*/
+
 
 .services-content
 {
@@ -2801,7 +2761,7 @@ header .top-bar
     margin: .6rem 0 0;
 }
 
-/*noinspection ALL*/
+
 
 .owl-theme .owl-controls .owl-page
 {
@@ -2877,7 +2837,7 @@ header .top-bar
     color: rgba(255, 255, 255, 0.3);
 }
 
-/*noinspection ALL*/
+
 
 .contact-form .placeholder
 {
