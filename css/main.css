@@ -1670,7 +1670,7 @@ header .top-bar
     background-size: cover;
     background: #000000 url(../images/bg.jpg) no-repeat fixed center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: table;
     position: relative;
     text-align: center;
@@ -1784,10 +1784,6 @@ header .top-bar
 
 @media only screen and (max-width:768px)
 {
-    #cover
-    {
-        min-height: 660px;
-    }
     .cover-content h5
     {
         font-size: 3.2rem;
@@ -1802,10 +1798,6 @@ header .top-bar
 
 @media only screen and (max-width:600px)
 {
-    #cover
-    {
-        min-height: 600px;
-    }
     .cover-content h1
     {
         font-size: 5rem;
