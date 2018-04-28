@@ -8,11 +8,11 @@ module.exports = function(grunt) {
         cssmin: {
             target: {
                 files: [{
-                    expand: true,
-                    cwd: 'css',
-                    src: ['*.css', '!*.min.css'],
-                    dest: '.tmp',
-                    ext: '.min.css'
+                    src : ["css/bootstrap.css",
+                        "css/main.css",
+                        "css/vendor.css",
+                        "css/custom.css"],
+                    dest: '.tmp/dist.min.css'
                 }]
             }
         },
@@ -29,7 +29,11 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/dist.min.js': 'js/*.js'
+                    'js/dist.min.js':
+                        ["js/jquery-2.1.3.min.js",
+                            "js/bootstrap.min.js",
+                            "js/plugins.js",
+                            "js/main.js"]
                 }
             }
         }
