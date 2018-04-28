@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                     cwd: 'css',
                     src: ['*.css', '!*.min.css'],
                     dest: '.tmp',
-                    ext: 'dist.min.css'
+                    ext: '.min.css'
                 }]
             }
         },
@@ -22,14 +22,14 @@ module.exports = function(grunt) {
             target: {
                 src: ['*.html', 'js/*.js'],
                 css: ['.tmp/*.css'],
-                dest: 'dist.min.css'
+                dest: 'css/dist.min.css'
             },
         },
 
         uglify: {
             my_target: {
                 files: {
-                    'dist.min.js': 'js/*.js'
+                    'js/dist.min.js': 'js/*.js'
                 }
             }
         }

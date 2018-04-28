@@ -56,5 +56,7 @@ footer
     margin-bottom: 50px;
 }
 
-
+.progress{
+    overflow: inherit;
+}
 
