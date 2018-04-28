@@ -8,52 +8,16 @@ var
     currentImage = 0
 ;
 
-function previousImage () {
+function nextImage () {
     currentImage--;
     figure.style.transform = 'rotateY('+(currentImage*theta)+'rad)';
 }
 
-function nextImage () {
-    currentImage++;
-    figure.style.transform = 'rotateY('+(currentImage*theta)+'rad)';
+function loop () {
+    nextImage();
+    setTimeout(function(){
+        loop();
+    }, 2000);
 }
 
-/*************************** CAROUSEL->DRAGGING ************************/
-
-var dragging = false;
-var startX = 0;
-
-function startMove(event) {
-    event.preventDefault();
-    dragging = true;
-    startX = event.clientX;
-}
-
-function move(event) {
-    event.preventDefault();
-    if (dragging) {
-        if (event.clientX > 50+startX) {
-            nextImage();
-            startX = event.clientX;
-        } else if (event.clientX < startX-50) {
-            previousImage();
-            startX = event.clientX;
-        } else {
-            figure.style.transform = 'rotateY('+(currentImage*theta)+'rad)';
-        }
-    }
-}
-
-function endMove(event) {
-    event.preventDefault();
-    dragging = false;
-}
-
-
-carousel.addEventListener("mousedown",startMove);
-carousel.addEventListener("mousemove",move);
-carousel.addEventListener("mouseup",endMove);
-
-carousel.addEventListener("touchstart",startMove);
-carousel.addEventListener("touchmove",move);
-carousel.addEventListener("touchend",endMove);
+loop();
