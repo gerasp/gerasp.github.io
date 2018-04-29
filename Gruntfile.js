@@ -78,15 +78,41 @@ module.exports = function(grunt) {
                         ]
                 }
             }
-        }
+        },
 
+        imagemin: {
+            home: {
+                files: [{
+                    expand: true,
+                    cwd: 'img/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'dist/'
+                }]
+            },
+            meetandeat: {
+                files: [{
+                    expand: true,
+                    cwd: 'meetandeat/img/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'meetandeat/dist/'
+                }]
+            },
+            diktaplus: {
+                files: [{
+                    expand: true,
+                    cwd: 'diktaplus/img/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'diktaplus/dist/'
+                }]
+            }
+        }
     });
 
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-purifycss');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-
-    grunt.registerTask('default', ['purifycss','cssmin','uglify']);
+    grunt.registerTask('default', ['purifycss','cssmin','uglify','imagemin']);
 
 };

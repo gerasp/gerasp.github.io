@@ -1665,7 +1665,7 @@ header .top-bar
     -moz-background-size: cover;
     background-size: cover;
 
-    background: #000000 url('../img/bg.jpg') no-repeat fixed center;
+    background: #000000 url('../dist/bg.jpg') no-repeat fixed center;
     width: 100%;
     height: 100vh;
     display: table;
