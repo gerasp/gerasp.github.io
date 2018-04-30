@@ -1738,7 +1738,7 @@ header .top-bar
     content: "|";
     text-align: center;
     display: inline-block;
-    padding: 0 8px 0 14px;
+    padding: 0 8px 0 8px;
     color: rgba(255, 255, 255, 0.3);
 }
 
