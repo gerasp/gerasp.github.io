@@ -3,20 +3,21 @@
 <head>
     <meta charset="utf-8">
     <title>Gerardo Medina</title>
-    <meta name="description" content="Personal website of Gerardo Medina">
+    <meta name="description" content="Personal website">
     <meta name="author" content="Gerardo Medina">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#B40404">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="dist/dist.min.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
 </head>
-<body id data-spy="scroll" data-target=".navbar" data-offset="50" class="text-center">
+<body id="go-top" data-spy="scroll" data-target=".navbar" data-offset="50" class="text-center">
 <nav class="navbar navbar-default text-center navbar-fixed-bottom" role="navigation"
      style="box-shadow: 0 0 15px grey; border: 0 solid black;">
     <ul class="nav nav-tabs">
         <li>
-            <a href="#intro"><i class="fa fa-home fa-lg"></i><b class="hidden-xs hidden-sm">&nbsp;INTRO</b></a>
+            <a href="#intro"><i class="fa fa-home fa-lg"></i><b class="hidden-xs hidden-sm">&nbsp;INTRODUCTION</b></a>
         </li>
         <li>
             <a href="#skills"><i class="fa fa-lg fa-cog"></i><b class="hidden-xs hidden-sm">&nbsp;SKILLS</b></a>
@@ -32,13 +33,11 @@
 <section id="cover">
     <div class="cover-overlay"></div>
     <div class="cover-content">
-        <h5>Welcome to my website</h5>
+        <img src="img/logo.svg" alt="Logo" id="main-logo">
         <h1>Gerardo Medina</h1>
-        <p class="cover-position"><span>Web & mobile developer</span><span>Software engineer</span></p>
-        <div class="row">
-            <a class="button stroke smoothscroll" href="#intro" title="">Discover more <i class="fa fa-chevron-down"
-                                                                                          style="color: white;"></i></a>
-        </div>
+        <p class="cover-position"><span>Java developer</span><span>Software engineer</span></p>
+        <a class="button stroke smoothscroll" href="#intro" title="">Discover more <i class="fa fa-chevron-down"
+                                                                                      style="color: white;"></i></a>
     </div>
 </section>
 <section id="intro" class="section">
@@ -47,7 +46,8 @@
             <h5>Intro</h5>
             <h1>Let me introduce myself.</h1>
             <div class="intro-info">
-                <p class="">Hey! My name is Gerardo, I come from Spain, but I'm currently earning my life in Germany. In this website I would
+                <p class="">Hey! My name is Gerardo, I come from Spain, but I'm currently earning my life in Germany. In
+                    this website I would
                     kindly invite you to discover the person I am and some pieces of my work.</p>
             </div>
             <h2>Languages</h2>
@@ -86,7 +86,7 @@
                 <div class="service-content">
                     <h3>General Programming</h3>
                     <p class="desc">My mother language: Java.
-                        PHP played an important role, especially in Web-Services development.
+                        PHP also played an important role, especially in Web-Services development.
                         I'm familiar with Python as well.
                         DRY and KISS principles are always present in my job.
                         IDE: IntelliJ Suite.</p>
@@ -96,9 +96,10 @@
                 <span class="icon"><i class="fa fa-globe"></i></span>
                 <div class="service-content">
                     <h3>Web Development</h3>
-                    <p class="desc">Front-end: HTML5, CSS3, JavaScript (+libraries). I'm used to work with FE-frameworks like
+                    <p class="desc">Front-end: HTML5, CSS3, JavaScript (+libraries). I'm used to work with FE-frameworks
+                        like
                         Bootstrap or Foundation.
-                        Back-end: PHP-scripting and frameworks like Java EE, Django & Symfony. CMS: TYPO3.</p>
+                        Back-end: Java EE, Django & Symfony. CMS: TYPO3.</p>
                 </div>
             </div>
             <div class="service">
@@ -106,7 +107,7 @@
                 <div class="service-content">
                     <h3>Mobile Development</h3>
                     <p class="desc">During my work experience and my free time, I had the opportunity to lead some
-                        projects until they reached the Play
+                        projects until they reached the Android Play
                         Store and even further away, such as a real University-App or a "gamified" dictation-App.</p>
                 </div>
             </div>
@@ -126,7 +127,8 @@
                 <div class="service-content">
                     <h3>Databases Management</h3>
                     <p class="desc">
-                        SQL and relational databases are something essential for my projects. I have worked mainly with
+                        SQL and relational databases are something essential in all my projects. I have worked mainly
+                        with
                         MySQL
                         and SQLite Databases.</p>
                 </div>
@@ -136,14 +138,16 @@
                 <div class="service-content">
                     <h3>Version Control</h3>
                     <p class="desc">After doing some courses and learning it in my studies, git has become one
-                        of the main tools I use in order to organize my own projects and the projects I participate in.</p>
+                        of the main tools I use in order to organize my own projects and the projects I participate
+                        in.</p>
                 </div>
             </div>
             <div class="service">
                 <span class="icon"><i class="fa fa-image"></i></span>
                 <div class="service-content">
                     <h3>Image Processing</h3>
-                    <p class="desc">I learned on my own the basic concepts of image processing and can eventually use programs
+                    <p class="desc">I learned on my own the basic concepts of image processing and can eventually use
+                        programs
                         like GIMP and manipulate vector graphs with Inkscape.</p>
                 </div>
             </div>
@@ -152,7 +156,7 @@
                 <div class="service-content">
                     <h3>Office Suites</h3>
                     <p class="desc">
-                        I am able to use MS-Office and WPS Office as an alternative. That includes basically Word,
+                        LibreOffice and MS-Office as an alternative. That includes basically Word,
                         PowerPoint and Excel.</p>
                 </div>
             </div>
@@ -168,13 +172,13 @@
         <div class="row client-row">
             <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip"
                  title="Das Tolle Forum: Ein schönes und funktionelles Forum, made with Django">
-                <a href="https://dastolleforum.herokuapp.com/">
+                <a href="https://github.com/germede/DasTolleForum">
                     <img alt="client" src="dist/projects/DasTolleForum.png">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip"
                  title="ChronoMed: Your medical history, everywhere">
-                <a href="https://chronomed-dev.herokuapp.com/">
+                <a href="https://github.com/germede/ChronoMed">
                     <img alt="client" src="dist/projects/ChronoMed.png"></a>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12" data-toggle="tooltip" title="Meet&Eat: Big meals made bigger">
@@ -188,7 +192,7 @@
                 </a>
             </div>
         </div>
-        <a href="https://github.com/gerasp" class="button stroke" style="margin-top:40px;"><i class="fa fa-github fa-lg"
+        <a href="https://github.com/germede" class="button stroke" style="margin-top:40px;"><i class="fa fa-github fa-lg"
                                                                                               style="color: black;"></i>&nbsp;GitHub
             Profile</a>
     </div>
@@ -197,17 +201,11 @@
     <div class="row section-intro">
         <h5>Contact</h5>
         <h1>I'd love to hear from you.</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5132297.359442328!2d5.968357985600645!3d51.08992317063123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1524858781456" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5132297.359442328!2d5.968357985600645!3d51.08992317063123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1524858781456"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <div class="row contact-info">
-        <div class="col-sm-6">
-            <div class="icon">
-                <i class="fa fa-map-marker"></i>
-            </div>
-            <h5>Where do I come from</h5>
-            <p>Las Palmas, Spain</p>
-        </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div class="icon">
                 <i class="fa fa-envelope"></i>
             </div>
@@ -219,7 +217,7 @@
 <footer>
     <div class="container">
         <div class="col-sm-12 text-center">
-            <span>© Gerardo Medina 2018. Adapted design from <a href="http://www.styleshout.com/">styleshout.</a></span>
+            <span>© Gerardo Medina 2019. Template from <a href="http://www.styleshout.com/">styleshout.</a></span>
         </div>
     </div>
 </footer>
