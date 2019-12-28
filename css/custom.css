@@ -7,13 +7,17 @@
 }
 
 #main-logo {
-    width: 250px;
+    width: 232px;
     max-width: 40%;
     margin-bottom: 20px;
 }
 
 #cover {
     height: 95vh;
+}
+
+.cover-content .button {
+    margin-right: 0;
 }
 
 @media only screen and (max-width:600px) {
