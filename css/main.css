@@ -2203,28 +2203,28 @@ header .top-bar
 
 /** 
  * ===================================================================
- * 13. portfolio - (_layout.scss)
+ * 13. projects - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
 
 
 
-#portfolio
+#projects
 {
     background: #ffffff;
 }
 
 
 
-#portfolio .folio-item
+#projects .folio-item
 {
     padding: 0;
     position: relative;
     overflow: hidden;
 }
 
-#portfolio .folio-item img
+#projects .folio-item img
 {
     vertical-align: middle;
     -moz-transition: all 0.5s ease-in-out;
@@ -2236,7 +2236,7 @@ header .top-bar
 
 
 
-#portfolio .overlay
+#projects .overlay
 {
     position: absolute;
     top: 0;
@@ -2253,7 +2253,7 @@ header .top-bar
 
 
 
-#portfolio .folio-item-table
+#projects .folio-item-table
 {
     display: table;
     width: 100%;
@@ -2262,7 +2262,7 @@ header .top-bar
 
 
 
-#portfolio .folio-item-cell
+#projects .folio-item-cell
 {
     display: table-cell;
     vertical-align: middle;
@@ -2278,7 +2278,7 @@ header .top-bar
 
 
 
-#portfolio .folio-title
+#projects .folio-title
 {
     color: #FFFFFF;
     font-size: 3.3rem;
@@ -2288,7 +2288,7 @@ header .top-bar
 
 
 
-#portfolio .folio-types
+#projects .folio-types
 {
     margin: 0;
     padding: 0;
@@ -2301,19 +2301,19 @@ header .top-bar
 
 
 
-#portfolio .folio-item:hover .overlay
+#projects .folio-item:hover .overlay
 {
     background: rgba(0, 0, 0, 0.8);
 }
 
 
 
-#portfolio .folio-item:hover .folio-item-cell
+#projects .folio-item:hover .folio-item-cell
 {
     left: 0;
 }
 
-#portfolio .folio-item:hover img
+#projects .folio-item:hover img
 {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -2322,14 +2322,14 @@ header .top-bar
 
 /**
  * responsive:
- * portfolio
+ * projects
  * ------------------------------------------------------------------- 
  */
 
 @media only screen and (max-width:1024px)
 {
 
-    #portfolio .folio-title
+    #projects .folio-title
     {
         font-size: 3.1rem;
     }
@@ -2338,7 +2338,7 @@ header .top-bar
 @media only screen and (max-width:768px)
 {
 
-    #portfolio .folio-title
+    #projects .folio-title
     {
         font-size: 2.5rem;
     }
@@ -2347,7 +2347,7 @@ header .top-bar
 @media only screen and (max-width:400px)
 {
 
-    #portfolio .folio-title
+    #projects .folio-title
     {
         font-size: 2.2rem;
     }
